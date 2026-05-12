@@ -182,6 +182,7 @@ pandocfilters
 parso
 pdf2image
 pdfminer.six
+pdm
 pi_heif
 pikepdf
 pillow
