@@ -9,8 +9,14 @@ langchain-pinecone==0.2.13
 langchain-text-splitters==1.1.0
 langchain-unstructured==1.0.1
 langgraph==1.0.6
+langgraph-prebuilt==1.0.6
+langgraph-checkpoint
+langgraph-sdk
+
 langsmith==0.6.4
 langchain-ollama==1.0.1
+langchain-tests
+langdetect
 
 # 나머지 패키지 (최신 버전 설치)
 aiofiles
@@ -78,6 +84,7 @@ frozenlist
 fsspec
 gitdb
 GitPython
+geopy
 google-api-core
 google-auth
 google-cloud-vision
@@ -127,11 +134,6 @@ jupyterlab_server
 jupyterlab_widgets
 kiwisolver
 kubernetes
-langchain-tests
-langdetect
-langgraph-checkpoint
-langgraph-prebuilt
-langgraph-sdk
 libmagic
 lxml
 markdown-it-py
@@ -180,9 +182,9 @@ packaging
 pandas
 pandocfilters
 parso
+pdm
 pdf2image
 pdfminer.six
-pdm
 pi_heif
 pikepdf
 pillow
@@ -226,6 +228,7 @@ python-dateutil
 python-docx
 python-dotenv
 python-iso639
+python-jose
 python-json-logger
 python-magic
 python-multipart
